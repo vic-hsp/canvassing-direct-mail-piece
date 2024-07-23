@@ -1,0 +1,983 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+
+	<head>
+		<meta charset="UTF-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>		
+		<meta http-equiv="X-UA-Compatble" content="ie=edge"/>
+		<title>DMC - Limited Availability</title>
+		<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+		
+		<style>
+		*{
+			margin:0;
+			padding:0;
+		}
+		body{
+			font-family: 'Open Sans', sans-serif;
+			background: #FFFFFF;
+		}
+		img{
+			vertical-align: middle;
+			max-width: 100%;
+			display: inline-block;
+		}
+		div,
+		section,
+		nav,
+		article,
+		aside{
+			box-sizing: border-box;
+		}
+		a{
+			text-decoration: none;
+		}
+		table{
+			width: 100%;
+		}
+		table th,
+		table td{
+			padding: 0px;
+			box-sizing: border-box;
+			color: #000000;
+			font-family: 'Open Sans', sans-serif;
+			line-height: 1;
+		}
+
+		@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+		@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+
+		/* =============
+
+			font-family: 'Open Sans', sans-serif;
+
+			font-family: "Jost", sans-serif;
+
+		============= */
+
+		@page {
+			size: letter;
+			margin: 0;
+		}
+		@media print {
+			html, body {
+				width: 8.5in;
+				height: 11in; 
+			}
+			body{
+				-webkit-print-color-adjust: exact !important;
+				-moz-print-color-adjust: exact !important;
+				-ms-print-color-adjust: exact !important;
+				print-color-adjust: exact !important;
+			}
+			@page {
+				size: letter;
+				margin: 0;
+			}
+			.page_wrapper {
+				border: initial;
+				border-radius: initial;
+				width: initial;
+				width: 8.5in;
+				height: 11in;
+				margin: 0;
+				min-height: initial;
+				box-shadow: initial;
+				background: initial;
+				page-break-after: always;
+				box-sizing: border-box;
+			}
+		}
+
+		/*   End Of Simple Typography   */
+
+		.page_wrapper{
+			width: 8.5in;
+			height: 11in;
+
+			margin: 0px auto;
+			padding: 0px;
+			box-sizing: border-box;
+			position: relative;
+		}
+		.page_wrapper .f_page.page_contents{
+			box-sizing: border-box;
+			padding: 0px;
+			position: absolute;
+
+			width: 8.5in;
+			height: 11in;
+			left: 0px;
+			top: 0px;
+		}
+
+		.page_wrapper .s_page.page_contents{
+			box-sizing: border-box;
+			padding: 0px;
+			position: absolute;
+
+			width: 8.5in;
+			height: 11in;
+			left: 0px;
+			top: 0px;
+		}
+
+
+		/* ============================== */
+		/* ============================== */
+		/* ============================== */
+
+
+		/* ===== CSS For "F Page Header" Starts Here ===== */
+		.f_page_header{
+			text-align: center;
+			padding: 15px 0px;
+		}
+		.f_page_header img{
+			width: 370px;
+		}
+		/* ===== CSS For "F Page Header" Ends Here ===== */
+
+
+		/* ============================== */
+		/* ============================== */
+		/* ============================== */
+
+
+		/* ===== CSS For "F Page Banner" Starts Here ===== */
+		.f_page_banner{
+			background: #B41C31;
+			text-align: center;
+			padding: 15px 0px;
+		}
+		.f_page_banner h2{
+			color: #FFFFFF;
+			font-family: "Jost", sans-serif;
+			font-weight: 600;
+			font-size: 45px;
+			line-height: 1.1;
+			text-transform: uppercase;
+			margin-bottom: 10px;
+		}
+		.f_page_banner h6{
+			color: #FFFFFF;
+			font-family: "Jost", sans-serif;
+			font-weight: 600;
+			font-size: 22px;
+			line-height: 1.2;
+			margin-bottom: 0px;
+		}
+		/* ===== CSS For "F Page Banner" Ends Here ===== */
+
+
+		/* ============================== */
+		/* ============================== */
+		/* ============================== */
+
+
+		/* ===== CSS For "F Page Body" Starts Here ===== */
+		.f_page_body{
+			padding: 24px 48px;
+		}
+
+		/* ============================== */
+
+		.f_page_body .discount_promotion{
+			background: #0A3161;
+			text-align: center;
+			padding: 15px 0px;
+		}
+		.f_page_body .discount_promotion h4{
+			color: #FFFFFF;
+			background: #B41C31;
+			font-family: "Jost", sans-serif;
+			font-weight: 600;
+			font-size: 28.5px;
+			line-height: 1;
+			text-transform: uppercase;
+			margin-bottom: 0px;
+			display: inline-block;
+			padding: 9px 15px;
+		}
+		.f_page_body .discount_promotion h5{
+			color: #FFFFFF;
+			font-family: "Jost", sans-serif;
+			font-weight: 600;
+			font-size: 28.5px;
+			line-height: 1;
+			margin: 15px 0px;
+		}
+		.f_page_body .discount_promotion h1{
+			color: #FFFFFF;
+			font-family: "Jost", sans-serif;
+			font-weight: 600;
+			font-size: 90px;
+			line-height: 1;
+			margin-bottom: 0px;   
+		}
+
+		/* ============================== */
+
+		.f_page_body .get_qualified{
+			overflow: hidden;
+			padding: 0px 10px;
+			margin: 20px 0px;
+		}
+		.f_page_body .get_qualified .icon{
+			width: 105px;
+			float: left;
+			margin-right: 15px;
+		}
+		.f_page_body .get_qualified .texts{
+			width: calc(100% - 120px);
+			float: left;
+		}
+		.f_page_body .get_qualified .texts h4{
+			color: #B41C31;
+			font-family: "Jost", sans-serif;
+			font-weight: 600;
+			font-size: 28px;
+			line-height: 1;
+			text-transform: uppercase;
+			margin-bottom: 7.5px;
+		}
+		.f_page_body .get_qualified .texts h6{
+			color: #18335F;
+			font-family: "Jost", sans-serif;
+			font-weight: 600;
+			font-size: 18px;
+			line-height: 1;
+			margin-bottom: 7.5px;
+		}
+		.f_page_body .get_qualified .texts p{
+			color: #B41C31;
+			font-family: "Jost", sans-serif;
+			font-weight: 600;
+			font-size: 18px;
+			line-height: 1;
+			display: inline-block;
+			text-decoration: underline;
+			margin-bottom: 0px;
+		}
+
+		/* ============================== */
+
+		.f_page_body .advantages_table td{
+			vertical-align: middle;
+		}
+		.f_page_body .advantages_table .lower_your_home{
+			width: 290px;
+		}
+		.f_page_body .advantages_table .zero_down{
+			width: 170px;
+		}
+		.f_page_body .advantages_table ul{
+			margin-bottom: 0px;
+		}
+		.f_page_body .advantages_table ul li{
+			list-style: none;
+			color: #18335F;
+			font-family: "Jost", sans-serif;
+			font-weight: 600;
+			font-size: 18px;
+			line-height: 1.25;
+			margin-bottom: 0px;
+			position: relative;
+			padding-left: 25px;
+		}
+		.f_page_body .advantages_table ul li:before{
+			content: "";
+			background: #B41C31;
+			width: 12px;
+			height: 12px;
+			border-radius: 50%;
+			position: absolute;
+			left: 0px;
+			top: 50%;
+			-webkit-transform: translateY(-50%);
+			-ms-transform: translateY(-50%);
+			transform: translateY(-50%);
+		}
+		.f_page_body .advantages_table ul li .break{
+			display: block;
+		}
+
+		/* ============================== */
+
+		.f_page_body .available_city{
+			position: relative;
+			border-top: 8px solid #0A3161;
+			margin-top: 25px;
+			padding: 0px 6px;
+			padding-top: 25px;
+		}
+
+		.f_page_body .available_city .hsp_map{
+			width: 210px;
+			position: absolute;
+			top: 25px;
+			right: -25px;
+			z-index: 0;
+		}
+
+		.f_page_body .available_city h4{
+			color: #FFFFFF;
+			background: #B41C31;
+			font-family: "Jost", sans-serif;
+			font-weight: 600;
+			font-size: 28.5px;
+			line-height: 1;
+			text-transform: uppercase;
+			margin-bottom: 10px;
+			display: inline-block;
+			padding: 6.75px 10px;
+		}
+		.f_page_body .available_city ul{
+			margin-bottom: 0px;
+			position: relative;
+			z-index: 99;
+		}
+		.f_page_body .available_city ul li{
+			list-style: none;
+			color: #0A3161;
+			font-family: "Jost", sans-serif;
+			font-weight: 600;
+			font-size: 30.5px;
+			line-height: 1;
+
+			margin-bottom: 10px;   
+		}
+		.f_page_body .available_city ul li.color_texts{
+			color: #B41C31;
+		}
+		.f_page_body .available_city ul li.or_texts{
+			width: 550px;
+			text-align: center;
+			margin-bottom: 0px !important;
+		}
+
+		.f_page_body .available_city ul li .visit{
+			color: #FFFFFF;
+			background: #B41C31;
+			font-family: "Jost", sans-serif;
+			font-weight: 600;
+			font-size: 40px;
+			line-height: 1;
+			text-transform: uppercase;
+			display: inline-block;
+			padding: 10px 15px;   
+		}
+		.f_page_body .available_city ul li .website{
+			color: #0A3161;
+			font-family: "Jost", sans-serif;
+			font-weight: 600;
+			font-size: 36px;
+			line-height: 1;
+		}
+		.f_page_body .available_city ul li .safety{
+			color: #B41C31;
+		}
+		/* ===== CSS For "F Page Body" Ends Here ===== */
+
+
+		/* ============================== */
+		/* ============================== */
+		/* ============================== */
+
+
+		/* ===== CSS For "Main Page" Starts Here ===== */
+		.page_wrapper .main_page{
+			background: #FFFFFF;
+		}
+		/* ===== CSS For "Main Page" Ends Here ===== */
+
+
+		/* ============================== */
+		/* ============================== */
+		/* ============================== */
+
+
+		/* ===== CSS For "Page Body" Starts Here ===== */
+		.s_page_body{
+			background: #FFFFFF;
+			position: relative;
+			padding: 24px 12px;
+			height: 1056px;
+		}
+		.s_page_body .the_letter{
+			width: 470px;
+			padding: 0px 25px;
+			padding-right: 20px;
+		}
+		.s_page_body .letter_texts p{
+			color: #000000;
+			font-family: 'Open Sans', sans-serif;
+			font-weight: 400;
+			font-size: 19px;
+			line-height: 1.5;
+			margin-bottom: 8px;   
+		}
+		.s_page_body .letter_texts p:last-child{
+			margin-bottom: 0px;
+		}
+		.s_page_body .letter_texts p .bold_texts{
+			font-weight: 700;
+		}
+
+		.s_page_body .letter_texts p .red_texts{
+			color: #B41C31;
+			font-weight: 600;
+		}
+		.s_page_body .letter_texts p .blue_texts{
+			color: #0A3161;
+			font-weight: 600;
+		}
+
+		.s_page_body .the_letter .greetings{
+			margin-bottom: 15px;
+		}
+		.s_page_body .the_letter .greetings h5{
+			color: #002554;
+			font-family: 'Open Sans', sans-serif;
+			font-weight: 600;
+			font-size: 24px;
+			line-height: 1;
+			margin-bottom: 0px;    
+		}
+
+		/* ============================== */
+
+		.s_page_body .hsp_logo{
+			margin-bottom: 20px;
+		}
+		.s_page_body .hsp_logo img{
+			width: 275px;
+		}
+
+		/* ============================== */
+
+		.s_page_body .the_letter .lt_texts{
+			margin-bottom: 30px;
+		}
+
+		/* ============================== */
+
+		.s_page_body .the_letter .two_options{
+			position: relative;
+		}
+		.s_page_body .the_letter .two_options:before{
+			content: "";
+			background: #0A3161;
+			width: 8px;
+			height: 100%;
+			position: absolute;
+			left: -20px;
+			top: 0px;
+		}
+
+		.s_page_body .the_letter .two_options .sub_title{
+			margin-bottom: 5px;
+		}
+
+		.s_page_body .the_letter .two_options .or{
+			margin: 10px 0px;
+		}
+		.s_page_body .the_letter .two_options .or p{
+			font-size: 20px;
+			font-weight: 600;
+		}
+
+		.s_page_body .the_letter .two_options .option_two p{
+			margin-bottom: 20px;
+		}
+		.s_page_body .the_letter .two_options .option_two p:last-child{
+			margin-bottom: 0px;
+		}
+
+		/* ============================== */
+
+		.s_page_body .call_circle{
+			width: 450px;
+			position: absolute;
+			left: 24px;
+			bottom: 24px;
+		}
+		.s_page_body .call_circle .circle_image img{
+			width: 450px !important;
+			display: inline-block;
+		}
+		.s_page_body .call_circle .call_texts{
+			width: 100%;
+			position: absolute;
+			text-align: center;
+			left: 0px;
+			right: 0px;
+			top: 45px;
+		}
+		.s_page_body .call_circle .call_texts h3{
+			color: #002554;
+			font-family: "Jost", sans-serif;
+			font-weight: 700;
+			font-size: 32px;
+			line-height: 1.4;
+			margin-bottom: 0px;
+		}
+		.s_page_body .call_circle .call_texts h3 .break{
+			display: block;
+		}
+
+		/* ============================== */
+
+		.s_page_body .property_approval{
+			width: 315px;
+			position: absolute;
+			right: 12px;
+			top: 24px;
+			z-index: 999;
+		}
+
+		/* ============================== */
+
+		.s_page_body .property_image{
+			text-align: center;
+		}
+		.s_page_body .property_image img{
+			width: 300px !important;
+			display: inline-block;
+		}
+
+		/* ============================== */
+
+		.s_page_body .approval_badge{
+			position: relative;
+		}
+		.s_page_body .approval_badge img{
+			width: 315px !important;
+			display: inline-block;
+		}
+		.s_page_body .approval_badge h4{
+			color: #FFFFFF;
+			font-family: "Jost", sans-serif;
+			font-weight: 700;
+			font-size: 23px;
+			margin-bottom: 0px;
+			width: 100%;
+			text-align: center;
+			position: absolute;
+			left: 0px;
+			right: 0px;
+			top: 29px;
+		}
+
+		/* ============================== */
+
+		.s_page_body .red_box{
+			background: #EBEBEB;
+			width: 300px;
+			margin-left: 7.5px;
+			padding: 20px 20px;
+			padding-right: 5px;
+		}
+
+		/* ============================== */
+
+		.s_page_body .user_info{
+			margin-bottom: 30px;
+			padding-right: 15px;
+		}
+		.s_page_body .user_info .single_info{
+			margin-bottom: 10px;
+			border-bottom: 2px solid #0A3161;
+			padding-bottom: 4px;
+		}
+		.s_page_body .user_info .single_info:last-child{
+			margin-bottom: 0px;
+		}
+		.s_page_body .user_info .single_info h6{
+			color: #0A3161;
+			font-family: 'Open Sans', sans-serif;
+			font-weight: 400;
+			font-size: 12px;
+			line-height: 1;
+			margin-bottom: 10px;
+		}
+		.s_page_body .user_info .single_info h5{
+			color: #0A3161;
+			font-family: 'Open Sans', sans-serif;
+			font-weight: 400;
+			font-size: 15px;
+			line-height: 1;
+			margin-bottom: 0px;
+		}
+
+		/* ============================== */
+
+		.s_page_body .qualifies_info_wrap h4{
+			color: #B41C31;
+			font-family: "Jost", sans-serif;
+			font-weight: 700;
+			font-size: 19px;
+			line-height: 1;
+			margin-bottom: 15px;
+		}
+		.s_page_body .qualifies_info .single_info{
+			margin-bottom: 20px;
+			padding-left: 35px;
+			position: relative;
+		}
+		.s_page_body .qualifies_info .single_info:last-child{
+			margin-bottom: 0px;
+		}
+		.s_page_body .qualifies_info .single_info img{
+			width: 28px !important;
+			display: inline-block;
+			position: absolute;
+			left: 0px;
+			top: 2px;
+		}
+		.s_page_body .qualifies_info .single_info h5{
+			color: #0A3161;
+			font-family: "Jost", sans-serif;
+			font-weight: 700;
+			font-size: 16px;
+			line-height: 1;
+			margin-bottom: 5px;
+		}
+		.s_page_body .qualifies_info .single_info h6{
+			color: #0A3161;
+			font-family: 'Open Sans', sans-serif;
+			font-weight: 500;
+			font-size: 11.5px;
+			line-height: 1.3;
+			margin-bottom: 0px;
+		}
+		.s_page_body .qualifies_info .single_info h6 .break{
+			display: block;
+		}
+
+		/* ============================== */
+
+		.s_page_body .no_insurance{
+			overflow: hidden;
+			border-top: 2px solid #B41C31;
+			margin-right: 10px;
+			margin-top: 20px;
+			padding-top: 20px;
+		}
+		.s_page_body .no_insurance .icon{
+			width: 24px;
+			margin-right: 8px;
+			float: left;
+			margin-top: 5px;
+		}
+		.s_page_body .no_insurance .texts{
+			width: calc(100% - 32px);
+			float: left;
+		}
+		.s_page_body .no_insurance .texts h5{
+			color: #000000;
+			font-family: "Jost", sans-serif;
+			font-weight: 400;
+			font-size: 15px;
+			line-height: 1.25;
+			margin-bottom: 0px;    
+		}
+		.s_page_body .no_insurance .texts h5 .bold_texts{
+			color: #0A3161;
+			font-weight: 700;
+		}
+
+		/* ============================== */
+
+		.s_page_body .limited_avail{
+			width: 290px;
+			margin: 20px auto;
+			background: #EBEBEB;
+			position: relative;
+			border-radius: 50px 5px 5px 50px;
+			padding: 10px;
+			padding-left: 66px;
+		}
+		.s_page_body .limited_avail img{
+			position: absolute;
+			left: 0px;
+			top: -7.5px;
+		}
+		.s_page_body .limited_avail h4{
+			color: #B41C31;
+			font-family: "Jost", sans-serif;
+			font-weight: 700;
+			font-size: 22px;
+			line-height: 1;
+			margin-bottom: 0px;
+		}
+
+		/* ============================== */
+
+		.s_page_body .apply_before{
+			margin-top: 30px;
+			text-align: center;
+		}
+		.s_page_body .apply_before h3{
+			color: #B41C31;
+			font-family: "Jost", sans-serif;
+			font-weight: 700;
+			font-size: 24px;
+			line-height: 1;
+			margin-bottom: 10px;
+		}
+		.s_page_body .apply_before h3:last-child{
+			margin-bottom: 0px;
+		}
+		/* ===== CSS For "Page Body" Ends Here ===== */
+		</style>
+	</head>
+	
+	<body>
+
+		<!--===== Markup For "First Page" Starts Here =====-->
+		<section class="page_wrapper">
+			<div class="f_page page_contents">
+				<div class="first_page">
+					<!--===== Markup For "F Page Header" Starts Here =====-->
+					<div class="f_page_header">
+						<div class="hsp_logo">
+							<img src="https://i.ibb.co/stS0dpw/Hurricane-Safety-Program-Logo.png" width="370" alt="" />
+						</div>
+					</div>
+					<!--===== Markup For "F Page Header" Ends Here =====-->
+
+
+					<!--===== Markup For "F Page Banner" Starts Here =====-->
+					<div class="f_page_banner">
+						<h2>HOMEOWNER NOTICE</h2>
+						<h6>{{address_line1}} {{address_city}} {{zip}}</h6>
+					</div>
+					<!--===== Markup For "F Page Banner" Ends Here =====-->
+
+
+					<!--===== Markup For "F Page Body" Starts Here =====-->
+					<div class="f_page_body">
+						<div class="discount_promotion">
+							<h4>LOWER YOUR HOME INSURANCE BY 50%</h4>
+							<h5>BY REPLACING YOUR ROOF, WINDOWS & DOORS</h5>
+							<h1>(786) 686-4347</h1>
+						</div>
+
+						<div class="get_qualified">
+							<div class="icon">
+								<img src="https://i.ibb.co/sbWZFzp/Home-Icon.png" width="105" alt="" />
+							</div>
+
+							<div class="texts">
+								<h4>GET QUALIFIED WHILE FUNDING LASTS!</h4>
+								<h6>AS OF JULY 1ST, HOMES IN DADE, BROWARD, AND PALM BEACH</h6>
+								<h6>COUNTY ARE NOW QUALIFYING FOR THE PROGRAM!</h6>
+								<p>ROOF OR WINDOWS MUST BE 10+ YEARS OLD</p>
+							</div>
+						</div>
+
+						<div class="advantages_table">
+							<table>
+								<tbody>
+									<tr>
+										<td class="lower_your_home">
+											<ul>
+												<li>Lower your home <span class="break"></span> insurance premium by <span class="break"></span> up to 50%</li>
+											</ul>
+										</td>
+
+										<td class="zero_down">
+											<ul>
+												<li>$0 Down</li>
+											</ul>
+										</td>
+
+										<td class="no_credit">
+											<ul>
+												<li>No Credit or Income Requirements</li>
+											</ul>
+										</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+
+						<div class="available_city">
+							<h4>THE HURRICANE SAFETY PROGRAM</h4>
+
+							<ul>
+								<li>IS NOW AVAILABLE IN {{city_cap}}</li>
+								<li class="color_texts">CALL OR TEXT "SAFETY" TO (786) 686-4347</li>
+								<li class="or_texts">OR</li>
+								<li><span class="visit">Visit</span> <span class="website">Hurricane<span class="safety">Safety</span>Program.org</span></li>
+							</ul>
+
+							<img src="https://i.ibb.co/VB5gLsG/HSP-Map.png" width="210" class="hsp_map" alt="" />
+						</div>
+					</div>
+					<!--===== Markup For "F Page Body" Ends Here =====-->
+				</div>
+			</div>
+		</section>
+		<!--===== Markup For "First Page" Ends Here =====-->
+		
+		<!--===== Markup For "Second Page" Starts Here =====-->
+		<section class="page_wrapper">
+			<div class="s_page page_contents">
+				<div class="main_page">
+					<!--===== Markup For "Page Body" Starts Here =====-->
+					<div class="s_page_body">
+						<div class="the_letter">
+							<div class="letter_texts">
+								<div class="hsp_logo">
+									<img src="https://i.ibb.co/stS0dpw/Hurricane-Safety-Program-Logo.png" width="275" alt="" />
+								</div>
+
+								<div class="greetings">
+									<h5>Dear Homeowner,</h5>
+								</div>
+
+								<div class="lt_texts">
+									<p>You are receiving this notice because on July 1st, Hurricane Safety Standards changed in your County. Due to the State's home insurance crisis, <span class="red_texts">your home now ranks in the top 5% for the most expensive home insurance in South Florida.</span></p>
+								</div>
+
+								<div class="two_options">
+									<div class="sub_title">
+										<p>Homeowners are now being given one of two options:</p>
+									</div>
+
+									<div class="option_one">
+										<p><span class="red_texts">Pay outrageous home insurance premiums that will continue to rise.</span></p>
+									</div>
+
+									<div class="or">
+										<p>OR</p>
+									</div>
+
+									<div class="option_two">
+										<p><span class="blue_texts">Replace their older Roofing and Windows to lower their premiums and protect their homes against dangerous hurricanes.</span></p>
+
+										<p><span class="blue_texts">The Hurricane Safety Program is now actively replacing old Roofing and Windows in {{address_city}} until Hurricane Season ends.</span></p>
+									</div>
+								</div>
+							</div>
+
+							<div class="call_circle">
+								<div class="circle_image">
+									<img src="https://i.ibb.co/bsk5XpJ/Drawing-Circle-Red.png" width="470" alt="" />
+								</div>
+
+								<div class="call_texts">
+									<h3>
+										Call (786) 686-4347
+										<span class="break"></span>
+										or
+										<span class="break"></span>
+										Text “SAFETY” To
+										<span class="break"></span>
+										Get Started!
+									</h3>
+								</div>
+							</div>
+						</div>
+
+						<div class="property_approval">
+							<div class="property_image">
+								<img src="https://i.ibb.co/LRSZXD1/Weather.jpg" width="300" alt="" />
+							</div>
+
+							<div class="approval_badge">
+								<div class="badge_bg">
+									<img src="https://i.ibb.co/DQv5Zbf/Blue-Shape.png" width="330" alt="" />
+								</div>
+
+								<h4>- Property Pre-Approval -</h4>
+							</div>
+
+							<div class="red_box">
+								<div class="user_info">
+									<div class="single_info">
+										<h6>Address:</h6>
+										<h5>{{address_line1}}</h5>
+									</div>
+
+									<div class="single_info">
+										<h6>City:</h6>
+										<h5>{{address_city}}</h5>
+									</div>
+
+									<div class="single_info">
+										<h6>State:</h6>
+										<h5>{{state}}</h5>
+									</div>
+
+									<div class="single_info">
+										<h6>Zip:</h6>
+										<h5>{{zip}}</h5>
+									</div>
+								</div>
+
+								<div class="qualifies_info_wrap">
+									<h4>Your property qualifies for:</h4>
+
+									<div class="qualifies_info">
+										<div class="single_info">
+											<img src="https://i.ibb.co/cg2Xrcx/Check-Icon.png" width="28" alt="" />
+
+											<h5>Roofing</h5>
+											<h6>Shingle | Flat | Tile | Metal</h6>
+										</div>
+
+										<div class="single_info">
+											<img src="https://i.ibb.co/cg2Xrcx/Check-Icon.png" width="28" alt="" />
+
+											<h5>Impact Windows & Doors</h5>
+											<h6>Single Hung | Horizontal | Casement <span class="break"></span> Entry Doors | French Doors | Sliding</h6>
+										</div>
+
+										<div class="single_info">
+											<img src="https://i.ibb.co/cg2Xrcx/Check-Icon.png" width="28" alt="" />
+
+											<h5>Energy Improvements</h5>
+											<h6>Central AC | Insulation | Duct Replacement</h6>
+										</div>
+									</div>
+
+									<div class="no_insurance">
+										<div class="icon">
+											<img src="https://i.ibb.co/WG6j22z/Like-Icon.png" width="24" alt="" />
+										</div>
+
+										<div class="texts">
+											<h5><span class="bold_texts">Don't have home insurance? No problem.</span> You are still eligible!</h5>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="limited_avail">
+								<h4>Limited Availability!</h4>
+								<img src="https://i.ibb.co/b5y3sG2/Info-Icon.png" width="54" alt="" />
+							</div>
+
+							<div class="apply_before">
+								<h3>Apply before:</h3>
+								<h3>08/31/2024</h3>
+							</div>
+						</div>
+					</div>
+					<!--===== Markup For "Page Body" Ends Here =====-->
+				</div>
+			</div>
+		</section>
+		<!--===== Markup For "Second Page" Ends Here =====-->
+
+		<script type="text/javascript">
+			window.print();
+		</script>
+	</body>
+
+</html>
